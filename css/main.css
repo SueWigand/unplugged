@@ -92,10 +92,6 @@ textarea {
    }
 
    /*------------------Base header-footer styles--------------------------*/
-   header, 
-   footer {
-
-   }
 
    /*---------------header styles-------------------*/
    header {
@@ -112,44 +108,26 @@ textarea {
 
    }
 
-header .nav {
+header .nav ul {
   display: flex;
   justify-content: space-around;
   
 } 
 
 /*-----------------main styles----------------*/
+/*-------------------mobile styles- homepage----------------------*/
 
 .hero-area {
   display: flex;
   justify-content: center;
 }
 
-.hero-area .content-wrapper {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
 
 aside {
   display: flex;
   justify-content: center;
 }
 
-aside .content-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-aside .form-description {
-
-}
-
-aside .form {
-
-}
 
 .features {
   display: flex;
@@ -169,23 +147,25 @@ aside .form {
   justify-content: center;
 }
 
-.reviews .content-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
 /*-------about styles----------*/
 .mission {
 display: flex;
 justify-content: center;
 }
 
-.contact-section {
+
+.contact-section .content-wrapper {
   display: flex;
   justify-content: center;
 }
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
 
 
 
@@ -210,26 +190,6 @@ footer {
   text-align: center;
 }
 
-footer .content-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-footer .footer-content {
-
-}
-
-footer .contact {
-
-}
-
-footer .social p {
-  display: flex;
-  justify-content: center;
-}
-
 footer .social-icons {
   display: flex;
   justify-content: space-around;
@@ -242,9 +202,6 @@ footer .social-icons p {
   align-items: center;
 }
 
-footer .copyright {
-
-}
 
 
 
