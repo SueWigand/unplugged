@@ -153,7 +153,13 @@ display: flex;
 justify-content: center;
 }
 
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+/*--------------------------------try this-------------------------------
 .contact-section .content-wrapper {
   display: flex;
   justify-content: center;
@@ -165,6 +171,8 @@ justify-content: center;
   justify-content: center;
   
 }
+
+--------------------------------*/
 
 
 
