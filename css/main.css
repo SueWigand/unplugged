@@ -500,36 +500,49 @@ footer .copyright {
 @media screen and (min-width 1200px) {
   /*Desktop styles here*/
 
-.content-wrapper {
-    width: 960px;
+  .content-wrapper {
+    max-width: 960px;
   }
 
- header .content-wrapper {
-    margin: 15px 0;
-    width: 30px;
+header {
+  padding: 15px 0;
+}
+
+
+.hero-area h1 {
+  width: 80%;
+}
  }
 
-.form-description {
+aside .content-wrapper {
+  justify-content: space-around;
+  }
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
   width: 30%;
-  margin: 0;
 }
 
-.form {
-  width: 30%;
+.features h2 {
+  width: 90%;
 }
 
-.features-item-description {
-  width: 20%;
-}
-.reviews h2 {
-  width: 75%;
-  margin-bottom: 50px;
+.features article  {
+  flex-basis: 33%;
 }
 
-.reviews p {
-  width: 45%;
+.reviews article div {
+  width: 42%;
 }
 
+.mission h2,
+.contact-section .content-wrapper h2 {
+  width: 90%;
+}
+
+.faq h2 {
+  width: 100%;
+}
 }
 
 /* ==========================================================================
