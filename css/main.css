@@ -86,45 +86,102 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   .content-wrapper {
+   
+/*----General Styles----*/
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+  font-weight: 500;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+  font-weight: 500;
+}
+
+p {
+  font-size: 0.875em;
+  line-height: 1.125em;
+}
+
+img {
+
+}
+
+figure {
+
+}
+
+address {
+  font-style: normal;
+}
+
+.content-wrapper {
     outline: 3px dotted red;
     width: 90%;
     margin: 50px 0;
-   }
+}
 
    /*------------------Base header-footer styles--------------------------*/
 
    /*---------------header styles-------------------*/
-   header {
+    header {
     display: flex;
     justify-content: center;
     padding: 15px 0;
-    }
+   }
 
     header .content-wrapper {
+      margin: 0;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
-      margin: 0;
+      background-color: #202322;
      }
 
    .header-divider {
     width: 100%;
     height: 1px;
     margin: 10px 0 20px 0;
+    background-color: #3a3a3a;
     }
-
-
 
 header nav {
   width: 60%;
+  font-size: 1.125em;
+  font-weight: bold;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  font-size: 1.125em;
+  font-weight: bold;
 } 
 
 /*-----------------------footer styles----------------------*/
@@ -140,6 +197,7 @@ footer p {
 
 footer .content-wrapper {
   width: 55%;
+  background-color: #202322;
   }
 
 footer .contact {
@@ -150,12 +208,19 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #527158;
   }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.3125em;
+}
+
+footer h4 {
+  font-size: 1.125em;
+  font-weight: 500;
 }
 
 .copyright {
@@ -170,10 +235,27 @@ footer .social-icons p {
   justify-content: center;
 }
 
+.hero-area h1 {
+  font-size: 2.25em;
+  line-height: 2.6875em;
+  font-weight: 500;
+}
+
 
 aside {
   display: flex;
   justify-content: center;
+  background-color: #527158;
+}
+
+aside h3 {
+  font-size: 1.125em;
+  font-weight: 500;
+}
+
+aside .form input {
+  font-size: 1.125em;
+  font-weight: 500;
 }
 
 .features {
@@ -183,11 +265,17 @@ aside {
 
 .features h2 {
   margin-bottom: 60px;
+  font-size: 1.875em;
+  font-size: 500;
 }
 
 .features article {
   width: 65%;
   margin: 30px 0;
+}
+
+.features .fontawesome-icons {
+  font-size: 3.75em;
 }
 
 .features .features-items {
@@ -208,11 +296,16 @@ aside {
 
 .reviews h2 {
   margin: 40px;
+  font-size: 1.875em;
+  font-weight: 500;
+  line-height: 30px;
 }
 
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
+  font-size: 1.125em;
+  font-weight: 500;
 }
 
 
@@ -220,6 +313,7 @@ aside {
 .mission {
 display: flex;
 justify-content: center;
+background-color: #527158;
 }
 
 
@@ -236,7 +330,8 @@ justify-content: center;
 /*----------------------faq styles----------------------*/
 .faq {
   display: flex;
-  justify-content: center;;
+  justify-content: center;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -249,10 +344,15 @@ justify-content: center;
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 1.875em;
 }
 
 .faq-content {
   margin: 0 0 50px 0;
+}
+
+.faq-content h4 {
+  line-height: 1.5em;
 }
 
 
@@ -381,22 +481,26 @@ justify-content: space-between;
   display: none;
 }
 
-/*-----------------------------don't need this bit--------------
-hero-area .content-wrapper {
-  margin: 100px 0;
+h1 {
+  font-size: 3em;
+  line-height: 3em;
 }
 
-hero-area h1 {
-  margin: 0;
+h2 {
+  font-size: 2.25em;
+  line-height: 3em;
 }
------------------------------*/
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.875em;
+}
 
 aside .content-wrapper {
   margin: 50px 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  
 }
 
 aside .content-wrapper .form-description,
@@ -404,14 +508,6 @@ aside .content-wrapper .form {
   width: 40%;
   margin: 0;
 }
-
-/*-----features .content-wrapper {
-  margin: 100px 0;
-}
-
-features h2 {
-  margin-bottom: 20px;
-}----*/
 
 .features article {
   display: flex;
@@ -424,12 +520,6 @@ features h2 {
   width: 50%;
 }
 
-/*----------------------------------unnecessary----------------
-.reviews .content-wrapper {
-  margin: 100px 0;
-}
-----------------------*/
-
 .reviews article {
   display: flex;
   justify-content: space-between;
@@ -439,18 +529,13 @@ features h2 {
   width: 49%;
 }
 
-/*------------------------------didn't need this part either-----------
-.reviews h2 {
-  width: 75%;
-}
-
-.reviews p {
-  width: 50%;
-}
------------------------------------------------------*/
-
 footer .content-wrapper {
   width: 65%;
+  font-size: 1.5em;
+}
+
+footer p {
+  line-height: 1.125em;
 }
 
 .footer-content {
@@ -461,6 +546,10 @@ footer .content-wrapper {
 
 footer .contact {
    margin-bottom: 0;
+}
+
+footer .contact h4 {
+  font-size: 1.5em;
 }
 
 footer .copyright {
@@ -495,6 +584,12 @@ footer .copyright {
 .faq h2 {
   width: 100%;
 }
+
+.faq h4,
+.faq p {
+  font-size: 0.875em;
+  line-height: 0.984375em;
+}
 }
 
 @media screen and (min-width 1200px) {
@@ -511,9 +606,22 @@ header {
 
 .hero-area h1 {
   width: 80%;
+  font-size: 3.75em;
 }
- }
 
+h2 {
+  font-size: 2.25em;
+}
+
+h3,
+h4 {
+  font-size: 1.875em;
+}
+
+p {
+  font-size: 1.125em;
+  line-height: 1.5em;
+}
 aside .content-wrapper {
   justify-content: space-around;
   }
@@ -542,6 +650,16 @@ aside .content-wrapper .form {
 
 .faq h2 {
   width: 100%;
+}
+
+.faq h2,
+.mission h2 {
+  font-size: 3em;
+}
+
+.faq h4 {
+  font-size: 1.125em;
+  line-height: 1.125em;
 }
 }
 
