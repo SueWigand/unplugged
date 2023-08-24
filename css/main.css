@@ -191,14 +191,17 @@ footer {
   align-items: center;
   text-align: center;
 }
-footer p {
-  margin: 0;
-}
 
 footer .content-wrapper {
   width: 55%;
   background-color: #202322;
+  color: #e2e3ed;
   }
+
+
+footer p {
+  margin: 0;
+}
 
 footer .contact {
   margin-bottom: 50px;
@@ -253,9 +256,30 @@ aside h3 {
   font-weight: 500;
 }
 
-aside .form input {
-  font-size: 1.125em;
+aside .form {
+  margin-top: 30px;
+}
+ 
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .features {
@@ -292,6 +316,7 @@ aside .form input {
 .reviews {
   display: flex;
   justify-content: center;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
@@ -321,6 +346,7 @@ background-color: #527158;
 .contact-section {
   display: flex;
   justify-content: center;
+  background-color: #2a423a;
 }
 
 .contact-content p {
