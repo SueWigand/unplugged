@@ -145,7 +145,7 @@ address {
 }
 
 .content-wrapper {
-    outline: 3px dotted red;
+    /*outline: 3px dotted red;*/
     width: 90%;
     margin: 50px 0;
 }
@@ -506,7 +506,7 @@ background-color: #527158;
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width 768px) {
+@media only screen and (min-width: 768px) {
   /*Tablet styles here*/
 
 .content-wrapper {
@@ -644,6 +644,21 @@ footer .copyright {
 .mission-content p {
   width: 45%;
 }
+.map figure {
+  max-width: 100%;
+  height: 0;
+  padding-bottom: 54.69%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 .contact-section .content-wrapper h2  {
   width: 80%;
@@ -678,7 +693,7 @@ footer .copyright {
 }
 }
 
-@media screen and (min-width 1200px) {
+@media screen and (min-width: 1200px) {
   /*Desktop styles here*/
 
   .content-wrapper {
@@ -749,6 +764,21 @@ footer h4 {
   font-size: 3em;
 }
 
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 46.89%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .contact-content h4 {
   font-size: 1.875em;
 }
