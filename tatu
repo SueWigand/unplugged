@@ -1,0 +1,113 @@
+[33mcommit 4b3db4d6c44c2713f3136bf8af15eda91d3a6dee[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Sat Sep 2 11:31:22 2023 -0400
+
+    Add fontawesome icons
+
+[33mcommit 0633dbcadef5e7776c360a4e6a2beaf174ea2d45[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Thu Aug 31 18:58:29 2023 -0400
+
+    Practice iframes
+
+[33mcommit 587061c1d0cdfc2e2c9b72d8bb02197353c40910[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Thu Aug 31 18:31:04 2023 -0400
+
+    Add iframe mobile
+
+[33mcommit 277682c7884603e857d3b13d5a3f7aa4ea863508[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Sat Aug 26 18:31:31 2023 -0400
+
+    Continued tweaking img
+
+[33mcommit 2d2d894df38c215a1e545eb2ea020db30e23ec8e[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Thu Aug 24 18:36:03 2023 -0400
+
+    Almost done with styles
+
+[33mcommit ca5d83d4902839d179e996534b78995bacf0de49[m[33m ([m[1;31morigin/start-flex[m[33m)[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Wed Aug 23 19:35:18 2023 -0400
+
+    updating tablet and desktop style
+
+[33mcommit e91199e949965f997392810be47dc3f4b4f39996[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Sat Aug 19 18:11:41 2023 -0400
+
+    Add desktop media query
+
+[33mcommit 58c2dd741bd28babc2f1febb5db5a4e579b50cb2[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Tue Aug 15 19:35:16 2023 -0400
+
+    Add breakpoints tablet
+
+[33mcommit 7f0e37d53b6c25b826ed63b1b5747380d8aa0933[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Fri Aug 11 18:40:47 2023 -0400
+
+    Formatting mobile layout
+
+[33mcommit 58aed4208c22474f0947b2626db0b00f38a756aa[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Tue Aug 8 18:23:25 2023 -0400
+
+    tweak css, about/html
+
+[33mcommit e7c6f4da40b837b063234d71c106be49edfd3c80[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Tue Aug 8 18:10:07 2023 -0400
+
+    Finished adding flex to css
+
+[33mcommit 1a3e428321717d9a7276d58af3b6c1f5b6ddb6c0[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Mon Aug 7 20:04:51 2023 -0400
+
+    Started adding flex
+
+[33mcommit e4958ad069b5eb9cb95b2aae9bb5dc3eae1af7d2[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Wed Aug 2 11:28:08 2023 -0400
+
+    Added faq page code
+
+[33mcommit e0e2b75b6bc53030fd4f360a17af463fa7d11a67[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Wed Aug 2 10:51:02 2023 -0400
+
+    Added about page code
+
+[33mcommit 6cbdbfe25564705c4126e0c5d278ed3ad13f81b2[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Tue Aug 1 12:06:45 2023 -0400
+
+    finish homepage
+
+[33mcommit 1dad1863095062d34c41ef9169f0193d83abf885[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Fri Jul 28 12:46:16 2023 -0400
+
+    Update html
+
+[33mcommit 3bb6dcd30d7c16bd1048a56b45c0ca2db06ec36f[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Fri Jul 28 10:56:36 2023 -0400
+
+    Modified index, added img
+
+[33mcommit 22b7c77e530ec3f5dc6620d7c1725b1dc7c3259d[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Fri Jul 21 11:08:24 2023 -0400
+
+    Added & updated index to about & faq
+
+[33mcommit c9f029aac9cfe91963c1457fd5422b98c3b34fdd[m
+Author: sue.wigand <wigands2022@gmail.com>
+Date:   Fri Jul 21 10:45:40 2023 -0400
+
+    Initial commit

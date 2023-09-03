@@ -104,7 +104,7 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
 }
 
 a {
@@ -114,9 +114,9 @@ a {
 
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.125em;
+  font-size: 1.875em;
   font-weight: 500;
-  margin: 20px 0;
+  margin: 0;
 }
 
 h3,
@@ -145,7 +145,7 @@ address {
 }
 
 .content-wrapper {
-    outline: 3px dotted red;
+    /*outline: 3px dotted red;*/
     width: 90%;
     margin: 50px 0;
 }
@@ -182,14 +182,14 @@ address {
 header nav {
   width: 60%;
   font-size: 1.125em;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
 header nav ul {
+  width: 100%;
   display: flex;
   justify-content: space-around;
-  width: 100%;
 } 
 
 header nav ul li {
@@ -223,16 +223,18 @@ footer .social-icons {
   align-items: center;
   }
 
-footer .social-icons p {
+footer  .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.3125em;
 }
 
-footer h4 {
-  font-size: 1.125em;
-  font-weight: 500;
+footer .social-icons p i {
+  font-size: 1.312em;
 }
 
 footer .copyright {
@@ -248,7 +250,7 @@ footer .copyright {
 }*/
 
 .hero-area  {
-  background: url('../img/unplugged-retreat.jpg') center no-repeat #333;
+  background: url(../img/unplugged-retreat.jpg) center no-repeat #333;
   background-size: cover;
   min-height: 500px;
   display: flex;
@@ -302,11 +304,6 @@ input[type=button] {
   justify-content: center;
 }
 
-.features i {
-  font-size: .65em;
-  margin-bottom: 20px;
-}
-
 .features h2 {
   margin-bottom: 60px;
 }
@@ -316,15 +313,16 @@ input[type=button] {
   margin: 30px 0;
 }
 
-.features .fontawesome-icons {
-  font-size: 3.75em;
-}
-
 .features .features-items {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .features p {
@@ -336,10 +334,6 @@ input[type=button] {
   display: flex;
   justify-content: center;
   background-color: #2a423a;
-}
-
-.reviews figure {
-  width: 100%;
 }
 
 .reviews h2 {
@@ -590,11 +584,11 @@ aside .content-wrapper .form {
 }
 
 .features .features-item-description {
-  width: 50%;
+  width: 60%;
 }
 
-.reviews h2 {
-  width: 85%;
+.features i {
+  margin-bottom: 30px;
 }
 
 .reviews article {
@@ -602,7 +596,9 @@ aside .content-wrapper .form {
   justify-content: space-between;
 }
 
-
+.reviews h2 {
+  width: 85%;
+}
 
 .reviews article figure,
 .reviews article div {
@@ -638,6 +634,11 @@ footer p {
   line-height: 1.285;
 }
 
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-between;
+}
+
 footer .copyright {
   width: 100%;
 }
@@ -653,26 +654,14 @@ footer .copyright {
   width: 45%;
 }
 .map figure {
-  max-width: 100%;
-  height: 0;
-  padding-bottom: 54%;
-  overflow: hidden;
-  position: relative;
-}
-
-.map iframe {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  padding-bottom: 46%;
 }
 
 .contact-section .content-wrapper h2  {
   width: 80%;
 }
 
-.content-wrapper {
+.contact-content{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -736,7 +725,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: 30%;
+  width: 40%;
 }
 
 .form-description p {
@@ -754,9 +743,6 @@ aside .content-wrapper .form {
 .reviews h2 {
   padding-bottom: 50px;
 }
-.reviews figure {
-  width: 50%;
-}
 
 .reviews article div {
   width: 42%;
@@ -766,27 +752,18 @@ footer h4 {
   font-size: 1.875em;
 }
 
+.map figure {
+  padding-bottom: 37%;
+}
+
 .mission h2,
 .contact-section .content-wrapper h2 {
   width: 90%;
   font-size: 3em;
 }
 
-.map figure {
-  width: 100%;
-  height: 0;
-  padding-bottom: 47%;
-  overflow: hidden;
-  position: relative;
-}
 
-.map iframe {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+
 .contact-content h4 {
   font-size: 1.875em;
 }
